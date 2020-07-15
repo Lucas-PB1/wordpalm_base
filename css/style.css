@@ -1,0 +1,75 @@
+/*Login css*/
+.Login{
+	margin: 0 auto;
+	width: 300px;
+	margin-top: 12%;
+	display: flex;
+	flex-flow: column wrap;
+}
+.Login .form-group .input-login{
+	width: 300px;
+}
+.Login .form-login-button{
+	display: inline;
+	word-spacing: 10px;
+	text-align: center;
+}
+.Login .form-login-button .button-login{
+	width: 100px;
+}
+.button-login .link-button{
+	color: white;
+	text-decoration: none;
+}
+
+/*Cadastro*/
+.Cadastro{
+	margin: 0 auto;
+	width: 556px;
+	margin-top: 8%;
+	display: flex;
+	flex-flow: column wrap;
+}
+.Cadastro .field-2{
+	display: flex;
+	flex-flow: row wrap;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+
+}
+.Cadastro .form-group .input-register{
+	width: 271px;
+	margin-bottom: 7px;
+	margin-top: 7px;
+	margin-right: 7px;
+}
+.Cadastro .form-group .input-register-great{
+	width: 550px;
+	margin-bottom: 0px;
+}
+.Cadastro .form-register-button{
+	display: inline;
+	word-spacing: 10px;
+	text-align: center;
+}
+.Cadastro .form-register-button .button-register{
+	width: 100px;
+}
+.button-register .link-button{
+	color: white;
+	text-decoration: none;
+}
+
+/*Header*/
+.header.nav{
+	width: 100%;
+}
+.search-input{
+	/*Input de busca*/
+}
+/*CSS geral*/
+*{
+	margin: 0px;
+	padding: 0px;
+}

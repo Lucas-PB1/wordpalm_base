@@ -1,0 +1,13 @@
+Primeiro passo:
+npm init
+
+para criar o package
+
+execute
+npm install bootstrap
+npm install node
+npm install popper.js
+
+para compilar o sass use:
+
+sass --watch "endereço sass":"endereço para css"
