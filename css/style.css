@@ -1,4 +1,9 @@
-/*Login css*/
+/*Header*/
+.header.nav{
+
+}
+
+/*Login*/
 .Login{
 	margin: 0 auto;
 	width: 300px;
@@ -34,14 +39,10 @@
 	display: flex;
 	flex-flow: row wrap;
 	height: 100px;
-	margin: 0px;
-	padding: 0px;
-
 }
 .Cadastro .form-group .input-register{
 	width: 271px;
 	margin-bottom: 7px;
-	margin-top: 7px;
 	margin-right: 7px;
 }
 .Cadastro .form-group .input-register-great{
@@ -61,13 +62,29 @@
 	text-decoration: none;
 }
 
-/*Header*/
-.header.nav{
+/*Home*/
+.home{
+	margin-top: 20px;
 	width: 100%;
 }
-.search-input{
-	/*Input de busca*/
+.home #map{
+	margin-left: 50%;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
 }
+.home #map .mapa-home{
+	width: auto;
+	height: 500px;
+	
+}
+.home #map .title-map{
+	text-shadow: 2px 2px 5px black;
+	color: white;
+}
+/*Perfil*/
+
+
 /*CSS geral*/
 *{
 	margin: 0px;
