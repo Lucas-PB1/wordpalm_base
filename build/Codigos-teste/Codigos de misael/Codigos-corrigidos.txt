@@ -1,0 +1,69 @@
+<!-- Body -->
+<div id="top-10">
+	<center>
+		<div id="carousel-site" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="carrossel-img" src="img/paris.png" class="img-fluid d-block" title="paris">
+				</div>
+				<div  class="carousel-item">
+					<img class="carrossel-img" src="img/londres.png" class="img-fluid d-block" title="londres">
+				</div>
+				<div class="carousel-item">
+					<img class="carrossel-img" src="img/brasil.png" class="img-fluid d-block" title="brasil">
+				</div>
+			</div>
+		</div>
+	</center>
+	<div class="others">
+		<div class="container">
+			<h4 class="title-other"><strong>Outras 3 fotos que você vai gostar de ver:</strong></h4>
+			<div class="img-others">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img src="img/paris.png" class="img-thumbnail other-img">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img src="img/brasil.png" class="img-thumbnail other-img">
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<img src="img/londres.png" class="img-thumbnail other-img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+/*CSS*/
+/*Top 10*/
+#top-10 #carousel-site{
+	margin-top: 20px;
+}
+
+#top-10 #carousel-site .carousel-inner .carousel-item .carrossel-img{
+	border: solid;
+	border-color: gray;
+	background-color: lightgray;
+	padding: 20px;
+	width: auto;
+	height: 400px;
+}
+
+#top-10 .others{
+	margin-top: 40px;
+}
+#top-10 .others .container #title-other{
+	text-align: center;
+	font-family: bold;
+	margin-bottom: 10px;
+}
+#top-10 .others .container .img-others .thumbnail .other-img{
+	width: auto;
+	height: 200px;
+}

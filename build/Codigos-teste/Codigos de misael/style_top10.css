@@ -1,0 +1,25 @@
+#top-10 #carousel-site{
+	margin-top: 20px;
+}
+
+#top-10 #carousel-site .carousel-inner .carousel-item .carrossel-img{
+	border: solid;
+	border-color: gray;
+	background-color: lightgray;
+	padding: 20px;
+	width: auto;
+	height: 400px;
+}
+
+#top-10 .others{
+	margin-top: 40px;
+}
+#top-10 .others .container #title-other{
+	text-align: center;
+	font-family: bold;
+	margin-bottom: 10px;
+}
+#top-10 .others .container .img-others .thumbnail .other-img{
+	width: auto;
+	height: 200px;
+}

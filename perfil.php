@@ -1,25 +1,32 @@
-<h1>Marcel Husback</h1>
-<img class="rounded-circle" src="img/perfilMarcela.jpg">
-<center>
-  <div class="container">
-    <h2>Galeria</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <img src="img/paris.png" class="img-thumbnail">
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <img src="img/brasil.png" class="img-thumbnail">
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="thumbnail">
-          <img src="img/londres.png" class="img-thumbnail">
-          <div class="caption">
+<div id="perfil">
+  <div id="perfil_top">
+    <img class="rounded-circle" id="perfil_thumb" src="img/perfilMarcela.jpg">
+    <div id="perfil_info">
+      <h2 id="perfil_name">Marcel Husback</h2>
+    </div>
+  </div>
+  <center>
+    <div class="container">
+      <h3>Galeria</h3>
+      <hr>
+      <div id="galery">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="img/paris.png" class="img-thumbnail img_galery">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="img/brasil.png" class="img-thumbnail img_galery">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="img/londres.png" class="img-thumbnail img_galery">
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </center>
+    </center>
+  </div>
