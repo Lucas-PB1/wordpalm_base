@@ -1,212 +1,209 @@
 /*Header*/
-.header.nav{
-	width: 100%;
-}
-
-/*Notificações*/
-.header-nav #my_nav .navbar-nav .dropdown .notify{
-	background-color: lightblue;
-	padding-bottom: 0px !important;
-	padding-top: 0px !important;
-}
-
-.header-nav #my_nav .navbar-nav .dropdown .notify a:hover{
-	color: blue;
-}
-
-/*Login*/
-.Login{
-	margin: 0 auto;
-	width: 300px;
-	margin-top: 12%;
+.header-nav{
 	display: flex;
-	flex-flow: column wrap;
+	padding: 10px;
+	background-color: rgb(0 128 255);
+	align-items: baseline;
 }
-.Login .form-group .input-login{
-	width: 300px;
+.header-nav .menu-options{
+	margin-left: 10px;
 }
-.Login .form-login-button{
-	display: inline;
-	word-spacing: 10px;
-	text-align: center;
+.header-nav .menu-item{
+	color: white;
+	margin: 2px 2px 2px 2px;
 }
-.Login .form-login-button .button-login{
-	width: 100px;
-}
-.button-login .link-button{
+.header-nav .title{
 	color: white;
 	text-decoration: none;
 }
-
-/*Cadastro*/
-.Cadastro{
-	margin: 0 auto;
-	width: 556px;
-	margin-top: 8%;
-	display: flex;
-	flex-flow: column wrap;
-}
-.Cadastro .field-2{
-	display: flex;
-	flex-flow: row wrap;
-	height: 100px;
-}
-.Cadastro .form-group .input-register{
-	width: 271px;
-	margin-bottom: 7px;
-	margin-right: 7px;
-}
-.Cadastro .form-group .input-register-great{
-	width: 550px;
-	margin-bottom: 0px;
-}
-.Cadastro .form-register-button{
-	display: inline;
-	word-spacing: 10px;
-	text-align: center;
-}
-.Cadastro .form-register-button .button-register{
-	width: 100px;
-}
-.button-register .link-button{
-	color: white;
-	text-decoration: none;
+.header-nav .busca{
+	margin-left: auto;
 }
 
 /*Home*/
 .home{
-	margin-top: 20px;
-	width: 100%;
-}
-.home #map{
-	margin-left: 50%;
 	display: flex;
-	flex-flow: column wrap;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
+	margin-top: 10px;
 }
-.home #map .mapa-home{
+.home .map{
 	width: auto;
 	height: 500px;
-	
 }
-.home #map .title-map{
-	text-shadow: 2px 2px 5px black;
+.home .title-map .name-map{
 	color: white;
+	text-shadow: 2px 2px 5px black;
 }
+
 /*Perfil*/
-#perfil{
-	margin-top: 20px;
+.perfil{
+	display: flex;
+	flex-flow: column wrap;
+	margin-top: 40px;
+}
+.perfil .topo-perfil{
+	margin-left: 150px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.perfil .topo-perfil .perfil-info{
+	display: flex;
+	flex-flow: column wrap;
 	margin-left: 20px;
 }
-#perfil #perfil_top{
-	margin-left: 200px;
-	display: flex;
-}
-#perfil #perfil_top #perfil_thumb{
+.perfil .topo-perfil .perfil-thumbnail{
 	width: auto;
 	height: 150px;
 }
-#perfil #perfil_top #perfil_info{
-	margin-left: 20px;
-}
-#perfil #perfil_top #perfil_info #perfil_name{
-	color: gray;
-}
-#perfil .container #galery{
-	width: 1000px;
-	height: 230px;
-	border: solid;
-	padding: 10px;
-}
-#perfil .container #galery .thumbnail .img_galery{
-	width: auto;
+.perfil .galeria .img-galeria{
+	width: 300px;
 	height: 200px;
-}
-
-/*Post*/
-.post{
-	width: 65%;
-	height: 800px;
-	margin: 20px auto !important;
-	border:solid;
-	border-color: gray;
-	position: relative;
-	overflow-wrap: break-word;
-	
-}
-.post .title{
-	width: 100%;
-	height: 50px;
-	border-bottom: solid;
-	border-color: black;
-	background-color: lightgray;
-}
-.post .title .post-title{
-	color: black;
-	font-family: arial;
-}
-.legenda{
-	width: 100%;
-	height: 69px;
-	margin-top: 20px;
-	border-top: solid;
-	border-color: gray;
-	background-color: lightgray;
-}
-.post .post-legenda{
-	padding: 2px;
-	margin-left: 20px;
-	text-shadow: 2px 2px 10px gray;
-	font-family: times new roman;
-}
-
-.post .post-thumb{
-	width: 95%;
-	height: 80%;
-	margin: 10px;
-	margin-left: 22px;
-	padding: 20px;
-	color: gray;
-	border: solid;
-	background-color: lightgray;
 }
 
 /*Top 10*/
-#top-10 #carousel-site{
+.top10{
 	margin-top: 20px;
+	display: flex;
+	flex-flow: column wrap;
 }
-
-#top-10 #carousel-site .carousel-inner .carousel-item .carrossel-img{
-	border: solid;
-	border-color: gray;
-	background-color: lightgray;
-	padding: 20px;
-	width: auto;
-	height: 400px;
-}
-
-#top-10 .others{
-	margin-top: 40px;
-}
-#top-10 .others .container .title-other{
+.top10 .carrossel-top10 .my-carroussel{
 	text-align: center;
-	font-family: bold;
 	margin-bottom: 20px;
 }
-#top-10 .others .container .img-others{
-	padding: 20px;
-	border: solid;
-	padding-bottom: 0px;
-}
-#top-10 .others .container .img-others .thumbnail .other-img{
+.top10 .carrossel-top10 .my-carroussel .thumb-carroussel{
 	width: auto;
-	border: solid;
-	height: 200px;
+	height: 350px;
+}
+.top10 .galeria-top10{
+	flex-grow: 2;
+}
+.top10 .galeria-top10 .subtitle-top10{
+	font-family: helvetica;
+	font-weight: lighter;
 	margin-bottom: 20px;
 }
+.top10 .galeria-top10 .imgs-top10{
+	border: 1px solid black;
+	padding: 5px;
+}
+.top10 .galeria-top10 .imgs-top10 .thumb-top10{
+	margin: 5px;
+	width: auto;
+	height: 200px;
+}
 
+/*Cadastro*/
+.cadastro{
+	display: grid;
+	height: 500px;
+	justify-content: center;
+	align-content: center;
+	grid-gap: 10px;
+	grid-template-areas:
+	"titulo titulo"
+	"nick nick"
+	"name name"
+	"país senha"
+	"estado repeat-s"
+	"login-b cadastro-b"
+	;
+}
+.cadastro .titulo-g{
+	grid-area: titulo;
+	font-family: arial
+	font-weight:lighter;
+}
+.cadastro .login-g{
+	grid-area: login-b;
+	color: white;
+}
+.cadastro .cadastro-g{
+	grid-area: cadastro-b;
+	color: white;
+}
+.cadastro .repeat-g{
+	grid-area: repeat-s;
+}
+.cadastro .senha-g{
+	grid-area: senha;
+}
+.cadastro .name-g{
+	width: 500px;
+	grid-area: name;
+}
+.cadastro .nick-g{
+	grid-area: nick;
+}
+.cadastro .país-g{
+	grid-area: país;
+}
+.cadastro .estado-g{
+	grid-area: estado;
+}
+
+/*Login*/
+.login{
+	display: grid;
+	grid-gap: 10px;
+	height: 500px;
+	justify-content: center;
+	align-content: center;
+	grid-template-areas:
+	"titulo titulo"
+	"email email"
+	"senha senha"
+	"cadastro-b login-b"
+	;
+}
+.login .titulo-g{
+	grid-area: titulo;
+	font-weight: lighter;
+	font-family: arial;
+}
+.login .email-g{
+	grid-area: email;
+	width: 400px;
+}
+.login .senha-g{
+	grid-area: senha;
+}
+.login .cadastro-g{
+	grid-area: cadastro-b;
+	color: white;
+}
+.login .login-g{
+	grid-area: login-b;
+	color: white;
+}
+
+/*Post*/
+
+.post{
+	margin-top: 20px;
+	border: 1px solid black;
+	justify-content: center;
+	align-content: center;
+	display: grid;
+	grid-template-areas: 
+	"titulo"
+	"img"
+	"legenda"
+	;
+}	
+.post .titulo-f{
+	grid-area: titulo;
+}
+.post .img-f{
+	grid-area: img;
+}
+.post .legend-f{
+	grid-area: legenda;
+}
+/*Notificações*/
 /*Feed*/
-
 /*CSS geral*/
 *{
 	margin: 0px;

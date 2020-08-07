@@ -1,12 +1,9 @@
-<div class="post">
-	<div class="title">
-		<h3 class="post-title"><strong>Titulo do post</strong></h3>
-	</div>
-	<img src="img/paris.png" class="post-thumb">
-	<div class="legenda">
-		<p class="post-legenda">
-			Está é uma legenda de teste<br>
-			<b>#algumacoisa<b><br>
-			</p>
-		</div>
+<?php include("header.php");?>
+<div class="container post">
+	<h3 class="titulo-f"><strong>Titulo do post</strong></h3>
+	<img class="img-f" src="img/paris.png">
+	<p class="legenda-f">
+		Está é uma legenda de teste<br>
+		<b>#algumacoisa<b><br>
+		</p>
 	</div>

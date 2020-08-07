@@ -1,32 +1,32 @@
-<div id="perfil">
-  <div id="perfil_top">
-    <img class="rounded-circle" id="perfil_thumb" src="img/perfilMarcela.jpg">
-    <div id="perfil_info">
-      <h2 id="perfil_name">Marcel Husback</h2>
+<?php include("header.php");?>
+<div class="perfil">
+  <div class="topo-perfil">
+    <img src="img/perfilMarcela.jpg" class="rounded-circle perfil-thumbnail">
+    <div class="perfil-info">
+      <h2>Marcel Husback</h2>
+      <p>Uma pequena descrição sobre mim</p>
+      <a href="#">Tags<br>#tag1 / #tag2 / #tag3</a>
     </div>
   </div>
-  <center>
-    <div class="container">
-      <h3>Galeria</h3>
-      <hr>
-      <div id="galery">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="img/paris.png" class="img-thumbnail img_galery">
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="img/brasil.png" class="img-thumbnail img_galery">
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="img/londres.png" class="img-thumbnail img_galery">
-            </div>
-          </div>
+  <div class="container galeria">
+    <h3>Galeria</h3>
+    <hr>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="img/paris.png" class="img-thumbnail img-galeria">
         </div>
       </div>
-    </center>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="img/brasil.png" class="img-thumbnail img-galeria">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="img/londres.png" class="img-thumbnail img-galeria">
+        </div>
+      </div>
+    </div>
   </div>
+</div>
