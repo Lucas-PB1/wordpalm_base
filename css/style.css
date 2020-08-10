@@ -182,25 +182,33 @@
 /*Post*/
 
 .post{
-	margin-top: 20px;
-	border: 1px solid black;
+	padding: 20px;
+	display: flex;
 	justify-content: center;
 	align-content: center;
-	display: grid;
-	grid-template-areas: 
-	"titulo"
-	"img"
-	"legenda"
-	;
 }	
-.post .titulo-f{
-	grid-area: titulo;
+.post .container-post{
+	width: 700px;
+	height: auto;
+	border: 1px solid black;
+	display: flex;
+	flex-flow: column;
 }
-.post .img-f{
-	grid-area: img;
+.post .container-post .img-post{
+	align-self: center;
+	padding: 10px;
+	width: 690px;
+	height: 600px;
 }
-.post .legend-f{
-	grid-area: legenda;
+.post .container-post .title-post{
+	border-bottom: 1px solid;
+	padding: 10px;
+	font-family: times new roman;
+}
+.post .container-post .subtitle-post{
+	border-top: 1px solid;
+	font-family: arial;
+	padding: 10px;
 }
 /*Notificações*/
 /*Feed*/

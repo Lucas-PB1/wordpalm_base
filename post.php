@@ -1,9 +1,11 @@
 <?php include("header.php");?>
-<div class="container post">
-	<h3 class="titulo-f"><strong>Titulo do post</strong></h3>
-	<img class="img-f" src="img/paris.png">
-	<p class="legenda-f">
-		Está é uma legenda de teste<br>
-		<b>#algumacoisa<b><br>
-		</p>
+<div class="post">
+	<div class="container-post">
+		<h3 class="title-post"><strong>Titulo do post</strong></h3>
+		<img class="img-post" src="img/paris.png">
+		<p class="subtitle-post">
+			Está é uma legenda de teste<br>
+			<b>#algumacoisa<b><br>
+			</p>
+		</div>
 	</div>
